@@ -1,0 +1,508 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<!--2026/02/10 17:56:22-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="GENERATOR" content="ホームページV4">
+  <title>8. コードの改変 その2 - Kitaya lab</title>
+  <link rel="stylesheet" href="02_white_a0_0010.css" type="text/css" media="all">
+</head>
+
+<body>
+  <div id="page">
+  <div id="header">operanthouseのヘッダー</div>
+  <div id="title">
+  <h1>Kitaya lab</h1></div>
+  <div id="menubar"><div class="mainmenu"><ul><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="index.html" class="mainmenuitemlink"><span class="mainmenuitemmark">オペラントハウスとは</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="office1001038.html" class="mainmenuitemlink"><span class="mainmenuitemmark">What's Operant House?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">行動解析君とは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1076.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Mr. Behavio?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1001.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Gait analyzer</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="privacy1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">プライバシーポリシー</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side1">
+  <div class="submenu"><ul><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="index.html" class="submenuitemlink"><span class="submenuitemmark1">オペラントハウスとは?</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001.html" class="submenuitemlink"><span class="submenuitemmark1">制作の準備(ﾀﾞｳﾝﾛｰﾄﾞ)</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank.html" class="submenuitemlink"><span class="submenuitemmark1">3Dプリンターの準備</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank001.html" class="submenuitemlink"><span class="submenuitemmark1">オペラントハウスの製作</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank002.html" class="submenuitemlink"><span class="submenuitemmark1">オプションパーツについて</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001018.html" class="submenuitemlink"><span class="submenuitemmark1">ｵﾍﾟﾗﾝﾄﾊｳｽの使い方</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank003.html" class="submenuitemlink"><span class="submenuitemmark1">オリジナル課題の追加</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001030.html" class="submenuitemlink"><span class="submenuitemmark2">1. 準備</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001017.html" class="submenuitemlink"><span class="submenuitemmark2">2. コードの概要</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001031.html" class="submenuitemlink"><span class="submenuitemmark2">3. Phase0について</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001032.html" class="submenuitemlink"><span class="submenuitemmark2">4. Saveについて</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001033.html" class="submenuitemlink"><span class="submenuitemmark2">5. Phase1について</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001034.html" class="submenuitemlink"><span class="submenuitemmark2">6. Phase2について</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001035.html" class="submenuitemlink"><span class="submenuitemmark2">7. コードの改変 その1</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001067.html" class="submenuitemlink"><span class="submenuitemmark2">8. コードの改変 その2</span></a></span></span></span></li><li><span class="submenuitem" style="margin-left:10px;"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001068.html" class="submenuitemlink"><span class="submenuitemmark2">9. レバーを使う課題に改変</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001036.html" class="submenuitemlink"><span class="submenuitemmark1">Command list</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001069.html" class="submenuitemlink"><span class="submenuitemmark1">デフォルト課題の説明</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001010.html" class="submenuitemlink"><span class="submenuitemmark1">Tips</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001037.html" class="submenuitemlink"><span class="submenuitemmark1">トラブルシューティング</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001103.html" class="submenuitemlink"><span class="submenuitemmark1">About copyright</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001070.html" class="submenuitemlink"><span class="submenuitemmark1">Go to English page</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side2"></div>
+  <div class="HPZAutoMarginAdjuster" id="main_wrapper000">
+  <div id="main">
+  <h1>8. コードの改変 その2</h1>
+  <br clear="all">
+  <br clear="all">
+  前の章で最低限の機能は実現しましたが、実際に使ってみるとまだまだ不足を感じると思います。<br clear="all">
+  そこでここでは課題91にさらに以下の4つの機能を付け加えた課題92を作成して行きます。<br clear="all">
+  <br clear="all">
+  ・点滅パネルやユーザーが用意した画像をパネルとして表示<br clear="all">
+  ・水手がかりLEDの点滅機能<br clear="all">
+  ・課題後に正解数が上限に達せず飲水量が不足した場合に、不足分を補うための自動給水機能<br clear="all">
+  ・課題後正解率が一定値を超えたら別の課題に切り替える機能<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">def Task92(): &nbsp; # Test task 3</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;global Phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;Phase0_Init = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;Phase1_Init = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;Phase2_Init = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;while EndFlag == 0:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;OperantHouseUpdate() &nbsp; &nbsp;# Run house keeping function (This must be executed once per frame)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;if GetBackButtonStat()==1: &nbsp; &nbsp;# If &quot;Back&quot; button is clicked</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break &nbsp; # Back to the task select phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;if Phase == 0: &nbsp;# Parameter inputs</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase0_Init == 0: &nbsp; &nbsp;# Make GUI for the setting of the parameters for this task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RemoveMainRightWidget() # Remove task buttons</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutStartBackButton() &nbsp; &nbsp;# Put &quot;start&quot; and &quot;back&quot; buttons</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ColumnWidth = 14 &nbsp; &nbsp;# Width of input columns</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Row = 0</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Column = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mMaxCorrectNum = ttk.Label(MainWindowRightFrame, text='MaxCorrectNum', width=ColumnWidth).grid(</font><font color="Blue">row=Row, column=Column</font><font color="MidnightBlue">, sticky=W) &nbsp; &nbsp;# Put label</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxCorrectNumVar = IntVar(MainWindowRoot) &nbsp;# Declare a variable for input column</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iMaxCorrectNum = ttk.Entry(MainWindowRightFrame, textvariable=MaxCorrectNumVar, width=ColumnWidth).grid(</font><font color="Blue">row=Row + 1, column=Column</font><font color="MidnightBlue">) &nbsp;# Create inputcolumn and link it with the variable</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mMaxTrialNum = ttk.Label(MainWindowRightFrame, text='MaxTrialNum', width=ColumnWidth).grid(</font><font color="Blue">row=Row, column=Column</font><font color="MidnightBlue">, sticky=W)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxTrialNumVar = IntVar(MainWindowRoot) &nbsp;# Declare a variable for input column</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iMaxTrialNum = ttk.Entry(MainWindowRightFrame, textvariable=MaxTrialNumVar, width=ColumnWidth).grid(</font><font color="Blue">row=Row + 1, column=Column</font><font color="MidnightBlue">)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mTimeLimit = ttk.Label(MainWindowRightFrame, text='TimeLimit(min)', width=ColumnWidth).grid(</font><font color="Blue">row=Row, column=Column</font><font color="MidnightBlue">, sticky=W)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TimeLimitVar = IntVar(MainWindowRoot)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iTimeLimit = ttk.Entry(MainWindowRightFrame, textvariable=TimeLimitVar, width=ColumnWidth).grid(</font><font color="Blue">row=Row + 1, column=Column</font><font color="MidnightBlue">)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mPunishDur = ttk.Label(MainWindowRightFrame, text='PunishDur(s)', width=ColumnWidth).grid(</font><font color="Blue">row=Row, column=Column</font><font color="MidnightBlue">, sticky=W)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PunishDurVar = IntVar(MainWindowRoot)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iPunishDur = ttk.Entry(MainWindowRightFrame, textvariable=PunishDurVar, width=ColumnWidth).grid(</font><font color="Blue">row=Row + 1, column=Column</font><font color="MidnightBlue">)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mLickDur = ttk.Label(MainWindowRightFrame, text='LickDur(s)', width=ColumnWidth).grid(</font><font color="Blue">row=Row, column=Column</font><font color="MidnightBlue">, sticky=W)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LickDurVar = IntVar(MainWindowRoot)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iLickDur = ttk.Entry(MainWindowRightFrame, textvariable=LickDurVar, width=ColumnWidth).grid(</font><font color="Blue">row=Row + 1, column=Column</font><font color="MidnightBlue">)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <br clear="all">
+  <font color="Black">今までは入力欄をそれぞれグリッド座標を指定して配置していましたが、それだと後から入力欄を追加・削除した際に他の欄の座標も直さなければならず不便なのでRaw, Column変数を作成し、それらの値を使い入力欄を配置するようにします。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">mNextTask = ttk.Label(MainWindowRightFrame, text='NextTask#', width=ColumnWidth).grid(row=Row, column=Column, sticky=W) &nbsp;# The task number indicated herewill be the next task if the correct rate exceeds &quot;NextTaskTh&quot;</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskVar = IntVar(MainWindowRoot)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iNextTask = ttk.Entry(MainWindowRightFrame, textvariable=NextTaskVar, width=ColumnWidth).grid(row=Row + 1, column=Column)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Column += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">mNextTaskTh = ttk.Label(MainWindowRightFrame, text='NextTaskTh%', width=ColumnWidth).grid(row=Row, column=Column, sticky=W) &nbsp; # Correct rate threshold toswitch to the next task</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskThVar = IntVar(MainWindowRoot)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iNextTaskTh = ttk.Entry(MainWindowRightFrame, textvariable=NextTaskThVar, width=ColumnWidth).grid(row=Row + 1, column=Column)</font><br clear="all">
+  <br clear="all">
+  <font color="Black">新しい課題パラメータの入力欄を追加します。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Row += 2 &nbsp;# Begin a new line</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Column = 0</font><br clear="all">
+  <br clear="all">
+  <font color="Black">パラメータ数が多いのでここで改行します。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mPanelType = ttk.Label(MainWindowRightFrame, text='PanelType', width=ColumnWidth).grid(row=Row, column=Column, sticky=W) &nbsp;# Type of panel, Normal: whiterectangle panel, Blink: white rectangle bilnking panel, Textured: User custom image (Can be upload at &quot;MainWindow -&gt; Setting -&gt; Panel* texture&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PanelTypeVar = StringVar(MainWindowRightFrame)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tPanelType = OptionMenu(MainWindowRightFrame, PanelTypeVar, &quot;Normal&quot;, &quot;Blink&quot;, &quot;Textured&quot;).grid(row=Row + 1, column=Column, sticky=W)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Column += 1</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mWaterCueType = ttk.Label(MainWindowRightFrame, text='WaterCueType', width=ColumnWidth).grid(row=Row, column=Column, sticky=W) &nbsp;# If chose blink, rewardcue will blink</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;WaterCueTypeVar = StringVar(MainWindowRightFrame)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tWaterCueType = OptionMenu(MainWindowRightFrame, WaterCueTypeVar, &quot;Normal&quot;, &quot;Blink&quot;).grid(row=Row + 1, column=Column, sticky=W)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Column += 1</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mAwsOn = ttk.Label(MainWindowRightFrame, text='AWS', width=ColumnWidth).grid(row=Row, column=Column, sticky=W) &nbsp;# If ON, complemental water supply isapplied after end of each session</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AwsOnVar = StringVar(MainWindowRoot)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tAwsOn = OptionMenu(MainWindowRightFrame, AwsOnVar, &quot;ON&quot;, &quot;OFF&quot;).grid(row=Row + 1, column=Column, sticky=W)</font><br clear="all">
+  <br clear="all">
+  <font color="Black">ここではドロップダウン方式の入力欄(OptionMenu)を作成します。選択肢は&quot;Normal&quot;, &quot;Blink&quot;, &quot;Textured&quot;のように文字列を書いて追加する事が出来、実行中に選択した文字列がPanelTypeVarへ代入されます。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Str = &quot;ParametersForTask&quot; + str(GetTaskID())</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/MaxCorrectNum.dat') == True: &nbsp;# If save file named &quot;MaxCorrectNum.dat&quot; exist:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/MaxCorrectNum.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxCorrectNumVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Substitute loaded data into the variable of this program</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else: &nbsp;# If save file doesn't exist</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxCorrectNumVar.set(80) &nbsp;# Substitute 80 into the variable</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/MaxTrialNum.dat') == True:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/MaxTrialNum.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxTrialNumVar.set(pickle.load(PickleInst[GetTaskID()]))</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxTrialNumVar.set(110)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/TimeLimit.dat') == True:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/TimeLimit.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TimeLimitVar.set(pickle.load(PickleInst[GetTaskID()]))</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TimeLimitVar.set(600)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/PunishDur.dat') == True:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/PunishDur.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PunishDurVar.set(pickle.load(PickleInst[GetTaskID()]))</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PunishDurVar.set(10)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/LickDur.dat') == True:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/LickDur.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LickDurVar.set(pickle.load(PickleInst[GetTaskID()]))</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LickDurVar.set(2)</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">if os.path.exists(Str + '/NextTask.dat') == True:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/NextTask.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Load</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskVar.set(4) &nbsp;# Default value</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/NextTaskTh.dat') == True:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/NextTaskTh.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskThVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Load</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskThVar.set(80) &nbsp;# Default value</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/PanelType.dat') == True:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/PanelType.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PanelTypeVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Load</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PanelTypeVar.set('Blink') &nbsp;# Default value</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/WaterCueType.dat') == True:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/WaterCueType.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;WaterCueTypeVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Load</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;WaterCueTypeVar.set('Blink') &nbsp;# Default value</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str + '/AwsOn.dat') == True:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str + '/AwsOn.dat', 'rb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AwsOnVar.set(pickle.load(PickleInst[GetTaskID()])) &nbsp;# Load</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AwsOnVar.set('ON') &nbsp;# Default value</font><br clear="all">
+  <br clear="all">
+  <font color="Black">新パラメータのロード処理を追加</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutRoiGui(0, 1, 1, 0) &nbsp;# Put setting GUI of the indicated ROI on ROI window (ROI number, Detection mode, Threshold direction, ShowSymbol or not)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutRoiGui(1, 1, 1, 0)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutRoiGui(19, 0, 0, 1)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RemoveAllDigitalOutGui() &nbsp; &nbsp;# Remove all GUIs on the Digital out window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutDigitalOutGui(10) &nbsp; &nbsp;# Put the digital output GUI for channel 10 on Digital ouput window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutDigitalOutGui(12)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutDigitalOutGui(13)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RemoveAllServoGui() # Remove all GUI on the Servo GUI</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutServoGui(3) &nbsp;# Put a servo GUI for channel 3 on the Servo GUI</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase0_Init = 1 # Set a flag which indicating phase0 initialization has done</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;if GetSaveTrgStat() == 1: &nbsp; &nbsp;# If save trigger is activated</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Parameters will be saved into a folder named &quot;ParametersForTask90&quot;</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Str=&quot;ParametersForTask&quot;+str(GetTaskID()) &nbsp; # Substitute save folder path</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if os.path.exists(Str) == False: &nbsp; &nbsp;# If save folder doesn't exist</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;os.mkdir(Str) &nbsp; # Create the folder</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/MaxCorrectNum.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(MaxCorrectNumVar.get(),PickleInst[GetTaskID()]) &nbsp; &nbsp; # Save a value of &quot;MaxCorrectNumVar&quot; as &quot;MaxCorrectNum.dat&quot; file</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/MaxTrialNum.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(MaxTrialNumVar.get(),PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/TimeLimit.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(TimeLimitVar.get(),PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/PunishDur.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(PunishDurVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/LickDur.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(LickDurVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">with open(Str + '/NextTask.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(NextTaskVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/NextTaskTh.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(NextTaskThVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/PanelType.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(PanelTypeVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/WaterCueType.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(WaterCueTypeVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with open(Str+'/AwsOn.dat', 'wb') as PickleInst[GetTaskID()]:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pickle.dump(AwsOnVar.get(), PickleInst[GetTaskID()])</font><br clear="all">
+  <br clear="all">
+  <font color="Black">新パラメータの保存処理追加</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;if Phase == 1: &nbsp;# Waiting phase (Task will start when the set time arrives)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase1_Init == 0: # If the initialization for phase1 has not done</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutPreTaskButton() &nbsp;# Put &quot;StartNow&quot; and &quot;Back&quot; button on Main window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mStatusVar = StringVar(MainWindowRoot) &nbsp;# Create a variable for status display</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mStatus = ttk.Label(MainWindowRightFrame, textvariable=mStatusVar) &nbsp;# Create label object and link it with Main window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mStatus.place(x=10, y=0) &nbsp; &nbsp;# Place label object on the Main window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mOngoingResultVar = StringVar(MainWindowRoot) &nbsp; # Create a variable for progress display</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase1_Init = 1 # Flat that phase1 has done</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mStatusVar.set('Test2 task (' + str(GetTaskID()) + ') &nbsp; &nbsp;Waiting...') &nbsp; &nbsp;# Show current status of the Operant House</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if IsStartTime() == 1: &nbsp;# Check whether task start time arrives</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;StartNow() &nbsp;# Start task (Phase number will be &quot;2&quot;)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp;if Phase == 2: &nbsp;# If it is during task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2_Init == 0: # Initialization of the task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PutEndTaskNowButton() &nbsp; # Put &quot;TaskEnd&quot; button on Main window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mStatusVar.set('Test2 task (' + str(GetTaskID()) + ') &nbsp; &nbsp;Start time ' + str(TaskStartedMonth) + '/' + str(TaskStartedDay) + ' ' + str(TaskStartedHour) + ':' + str(TaskStartedMinute) + ' &nbsp; &nbsp;Running') &nbsp; &nbsp;# Substitute latest information about current task into &quot;mStatusVar&quot;</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mOngoingResult = ttk.Label(MainWindowRightFrame, textvariable=mOngoingResultVar)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mOngoingResult.place(x=10, y=18)</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Substitute task parameter values in StringVars into integer or string variable (to make the cord easeir to read)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxCorrectNum = int(MaxCorrectNumVar.get()) &nbsp; # Get the value of &quot;MaxCorrectNumVar&quot; and convert it from string to integer and substitute into variable named&quot;MaxCorrectNum&quot;</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MaxTrialNum = int(MaxTrialNumVar.get())</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TimeLimit = int(TimeLimitVar.get())</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PunishDur = int(PunishDurVar.get())</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LickDur = int(LickDurVar.get())</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">NextTask = int(NextTaskVar.get())</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NextTaskTh = int(NextTaskThVar.get())</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PanelType = PanelTypeVar.get()</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;WaterCueType = WaterCueTypeVar.get()</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AwsOn = AwsOnVar.get()</font><br clear="all">
+  <br clear="all">
+  <font color="Black">新パラメータ用の変数を追加し、代入します。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Declar local variables for this task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TrialNum = 0 &nbsp; &nbsp;# Current trial number</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectNum = 0 &nbsp;# Current correct trial number</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IncorrectNum = 0 &nbsp; &nbsp;# Current incorrect trial number</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectRate = 0.0 &nbsp; # Current correct rate</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TaskDur = 0 &nbsp;# This will keep the elapsed time during of task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NowDrinking = 0 # Use as trigger</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectPanelID = 0 &nbsp;# ID number of current correct panel (0 or 1)</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">AWS_Latency = 20 &nbsp; &nbsp;# Latency to start AWS (sec)</font><br clear="all">
+  <br clear="all">
+  <font color="Black">セッション終了してから補完給水(AWS)を始めるまでの時間をここで指定する変数を追加</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;StartRecording() &nbsp;# Start camera capture / TTL signal output</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;StartLickRecording() &nbsp;# Start an entry of lick log</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LightCycleControlOff() &nbsp;# Deactivate automatic Light/Dark cycle illumination</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RoofLightOff() &nbsp;# Turn off the lights on roof (Digital output Ch13)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;InfraredLightOn() &nbsp; # Turn on the infrared LED illumination (Digital output Ch12)</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">if WaterCueType == 'Normal':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DigitalOutOn(10) &nbsp; &nbsp;# Turn on cue LED connected to Ch10</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if WaterCueType == 'Blink':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DigitalOutBlinkOn(10) &nbsp; # Start blinking of cue LED connected to Ch10</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosInside(3) &nbsp; # Change the angle of water arm servo connected to Ch3 to inside position</font><br clear="all">
+  <br clear="all">
+  <font color="Black">WaterCueTypeはNormalの場合は通常の点灯 &quot;DigitalOutOn()&quot;、Blinkの場合は点滅を開始するコマンド &quot;DigitalOutBlinkOn()&quot;を追加</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">if PanelType == 'Normal':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateNormalPanel(0) &nbsp;# Create a white-filled square panel as panel #0</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateNormalPanel(1)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if PanelType == 'Blink':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateBlinkPanel(0) &nbsp;# Create a white-filled square blinking panel #0</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateBlinkPanel(1)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if PanelType == 'Textured':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateTexturedPanel(0,0) &nbsp;# Create a user uploaded image panel #0</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CreateTexturedPanel(1,0)</font><br clear="all">
+  <br clear="all">
+  <font color="Black">パネルの種類もBlinkなら点滅するパネルをCreateBlinkPanel()で作成、TexturedならCreateTexturedPanel()で作成します。なおCreateTexturedPanelの2番目の引き数はテクスチャ番号です。</font><br clear="all">
+  <font color="Black">Texturedパネルで表示されるイメージ(PNG形式)はSettingで登録する事が出来ます(サンプル画像はOperantHouseフォルダ―にあるTexturesフォルダの中にあります)。</font><br clear="all">
+  <font color="Black">今回は0番のテクスチャを使うのでTexture #0にイメージファイルを登録してください。</font><br clear="all">
+  <img src="paste2541.jpg" alt="" border="0"><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt = open(Path + &quot;/&quot; + str(TimeNow.year) + &quot;_&quot; + str(TimeNow.month) + &quot;_&quot; + str(TimeNow.day) + &quot; &quot; + str(TimeNow.hour) + &quot;h&quot; + str(TimeNow.minute) + &quot;m Task&quot; + str(GetTaskID()) + &quot; Touch.txt&quot;, 'w') &nbsp;# Initialize the text exporter for a result file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('TrialNum\tResult\t\t\tyyyy/mm/dd\th:m\ts\n') &nbsp;# Write item name on the result file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventCsv = open(Path + &quot;/&quot; + str(TimeNow.year) + &quot;_&quot; + str(TimeNow.month) + &quot;_&quot; + str(TimeNow.day) + &quot; &quot; + str(TimeNow.hour) + &quot;h&quot; + str(TimeNow.minute) + &quot;m Task&quot; + str(GetTaskID()) + &quot; Touch.csv&quot;, 'w')</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(&quot;Task #&quot; + str(GetTaskID()) + &quot; is started at &quot; + str(GetTaskStartedMonth()) + '/' + str(GetTaskStartedDay()) + ' ' + str(GetTaskStartedHour()) + ':' + str(GetTaskStartedMinute()) + ':' + str(GetTaskStartedSecond())) &nbsp;# Enter the start time in the console window of Pycharm</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_Start(5) &nbsp;# Start a timer #5 to measure the duration of the task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 2 &nbsp;# Start task from the reward phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2_Init = 1 # Flag indicating that initialization of Phase2 has done</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 0: &nbsp; # Initiation of new trial</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TaskDur = Timer_GetSec(5)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectPanelID = int(random.random()*2) # Determine which panel will be assigned as &quot;correct&quot;</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print('CorrectPanelID: ' + str(CorrectPanelID))</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ShowPanel(CorrectPanelID) &nbsp; &nbsp;# Display panel #0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 1</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 1: &nbsp; # Panel presentation</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TouchedPanelID = DetectRoiNosepoke() &nbsp;# Examine which panel is touched (return panel ID. If none of the panels touched, return -1)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if TouchedPanelID != -1 and TouchedPanelID != 19: # If mouse touches the panel</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TrialNum += 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if TouchedPanelID == CorrectPanelID: &nbsp; &nbsp;# If touched panel is assigned as correct</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosInside(3) &nbsp; &nbsp;# Move the water nozzle into inside position</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">if WaterCueType == 'Normal':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DigitalOutOn(10) &nbsp;# Turn on cue LED connected to Ch10</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if WaterCueType == 'Blink':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DigitalOutBlinkOn(10) &nbsp;# Start blinking of cue LED connected to Ch10</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="MidnightBlue">HidePanel(0) &nbsp; &nbsp;# Turn off panel #0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HidePanel(1) &nbsp; &nbsp;# Turn off panel #1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NowDrinking = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectNum += 1 &nbsp; &nbsp; # Increase the number of correct response</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write(str(TrialNum)+'\tPanelTouched(Correct)\t'+ str(TimeNow.year)+&quot;/&quot;+str(TimeNow.month)+&quot;/&quot;+str(TimeNow.day)+&quot;\t&quot;+str(TimeNow.hour)+&quot;:&quot;+str(TimeNow.minute)+&quot;\t&quot;+str(TimeNow.second)+&quot;.&quot;+str(TimeNow.microsecond//1000)+&quot;\n&quot;) # Write the response on the text file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventCsv.write(str(TrialNum) + ',1,' + str(TimeNow.year) + &quot;,&quot; + str(TimeNow.month) + &quot;,&quot; + str(TimeNow.day) + &quot;,&quot; + str(TimeNow.hour) + &quot;,&quot; +str(TimeNow.minute) + &quot;,&quot; + str(TimeNow.second) + &quot;.&quot; + str(TimeNow.microsecond//1000)+&quot;\n&quot;) &nbsp;# Write the response on the csv file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 2 &nbsp;# Start reward phase</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if TouchedPanelID != CorrectPanelID: &nbsp; &nbsp;# If touched panel is assigned as incorrect</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosOutside(3) &nbsp; &nbsp;# Move the water nozzle into inside position</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HidePanel(0)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HidePanel(1)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RoofLightOn() &nbsp; # Turn on the ceiling illumination</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IncorrectNum += 1 &nbsp; &nbsp; # Increase the number of correct response</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write(str(TrialNum)+'\tPanelTouched(Incorrect)\t'+ str(TimeNow.year)+&quot;/&quot;+str(TimeNow.month)+&quot;/&quot;+str(TimeNow.day)+&quot;\t&quot;+str(TimeNow.hour)+&quot;:&quot;+str(TimeNow.minute)+&quot;\t&quot;+str(TimeNow.second)+&quot;.&quot;+str(TimeNow.microsecond//1000)+&quot;\n&quot;) # Write the response on the text file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventCsv.write(str(TrialNum) + ',2,' + str(TimeNow.year) + &quot;,&quot; + str(TimeNow.month) + &quot;,&quot; + str(TimeNow.day) + &quot;,&quot; + str(TimeNow.hour) + &quot;,&quot; +str(TimeNow.minute) + &quot;,&quot; + str(TimeNow.second) + &quot;.&quot; + str(TimeNow.microsecond//1000)+&quot;\n&quot;) &nbsp;# Write the response on the csv file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_Start(0) &nbsp;# Start punishment timer</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 3 &nbsp;# Start punish phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mOngoingResultVar.set('CorrectNum: ' + str(CorrectNum) + ' &nbsp;IncorrectNum: ' + str(IncorrectNum) + ' &nbsp;TrialNum: ' + str(TrialNum))</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Timer_GetSec(5) &gt;= TimeLimit * 60: &nbsp; # If time limit of the task comes</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TaskDur = Timer_GetSec(5)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(&quot;Time limit elapsed&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_End(5) &nbsp; &nbsp;# Stop the timer</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Phase2 = 5</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 2: &nbsp;# Reward phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if DetectRoiNosepoke() == 19 and NowDrinking == 0: &nbsp; &nbsp;# If the mouse initiates nose poking</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NowDrinking = 1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_Start(0) &nbsp;# Start lick timer</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if NowDrinking == 1: &nbsp; &nbsp;# If the nose poke has begun</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Timer_GetSec(0) &gt;= LickDur: &nbsp; # If the nosepoke duration exceeds the lick duration</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_End(0) # End timer for measuring lick duration</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosMiddle(3) &nbsp; # Move water nozzle back to the middle position</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DigitalOutOff(10) &nbsp; # Turn off the cue LED</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NowDrinking = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 4 &nbsp;# Go to After trial phase</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 3: &nbsp;# Punishment phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Timer_GetSec(0) &gt;= PunishDur: &nbsp;# If punishment time is passed</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_End(0) &nbsp;# End punishment timer1</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RoofLightOff()</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosMiddle(3) &nbsp;# Move water nozzle to the intermediate position</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 4 &nbsp;# Go to After trial phase</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 4: &nbsp;# After trial phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectNum &lt; MaxCorrectNum and TrialNum &lt; MaxTrialNum: &nbsp;# If the touch number doesn't exceed the maximum number</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectNum &gt;= MaxCorrectNum or TrialNum &gt;= MaxTrialNum: &nbsp;# If the touch number exceeds the maximum number</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TaskDur = Timer_GetSec(5) &nbsp;# Keep the task time</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Phase2 = 5</font><br clear="all">
+  <br clear="all">
+  <font color="Black">補完給水を実装するためPhase2=5,6,7を追加します。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 5: &nbsp;# Determine whether AWS will be applied or not</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HideAllPanel()</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectNum &lt; MaxCorrectNum and AwsOn == 'ON': &nbsp;# If mouse didn't achieved the max correct response</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_Start(0)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 6</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectNum == MaxCorrectNum or AwsOn == 'OFF': &nbsp;# If mouse achieved the max correct response</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = -1</font><br clear="all">
+  <br clear="all">
+  <font color="Black">Phase2=5では補完給水を実行するべきか判断します。AWSが課題パラメータでONになっており、かつ正解数が最大正解数に達していない(=体重維持に最低限必要な飲水が出来てない)場合のみ、AWSフェーズであるPhase2=6,7へ移行させます。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 6: &nbsp;# Wait until complemental water supply is started</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Timer_GetSec(0) &gt;= AWS_Latency: &nbsp;# If it past indicated latency to start complemental water supply</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Timer_End(0)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ArbitaryWaterSupplyDur = (MaxCorrectNum - CorrectNum) * LickDur * 1000 &nbsp;# Calculate the duration of complemental water supply</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if WaterCueType == 'Normal':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;StartArbitaryWaterSupply(3, 10, 0, ArbitaryWaterSupplyDur) &nbsp;# Start complemental water supply</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if WaterCueType == 'Blink':</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;StartArbitaryWaterSupply(3, 10, 1, ArbitaryWaterSupplyDur)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(&quot;Arbitrary water supply start&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 7 &nbsp;# Start AWS</font><br clear="all">
+  <br clear="all">
+  <font color="Black">セッション終了直後にいきなり補完給水が始まるとマウスが混乱する恐れがあるのでPhase2=6ではAWS_Latencyで指定した時間待機させます。</font><br clear="all">
+  <font color="Black">もし指定時間待機したら、給水時間を不足した正解数から計算しArbitaryWaterSupplyDurへ代入します。</font><br clear="all">
+  <font color="Black">その後StartArbitaryWaterSupply()を実行して、AWSを開始します。なおこの関数の引数は以下の通りです。</font><br clear="all">
+  <font color="Black">StartArbitaryWaterSupply(給水アームのサーボに接続されたチャネル#, &nbsp;報酬Cueのチャネル#, &nbsp;報酬Cueを点滅させる場合は1そうでなけらば0, &nbsp;給水時間(msec))</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == 7: # Keep checking until complemental water supply is finished</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if GetArbitaryWaterSupplyStat() == 1: &nbsp;# If the complemental water supply is finished</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = -1</font><br clear="all">
+  <br clear="all">
+  <font color="Black">Phase2=7ではAWSの終了待ちフェーズです。</font><br clear="all">
+  <font color="Black">AWSが終わってからGetArbitaryWaterSupplyStat()を実行すると1が返って来るので(終わっていない場合は0)、毎フレームGetArbitaryWaterSupplyStat()を実行し、1が返ったらセッション終了フェーズへ移行します。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if Phase2 == -1 or GetEndTaskNowButtonStat() == 1: &nbsp;# If the flag is set to finish the task</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LightCycleControlOn() &nbsp; # Activate automatic light/dark cycle</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ServoPosMiddle(3) &nbsp; # Moze servo nozzle into middle position</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DeleteAllPanel() &nbsp; &nbsp;# Remove a panel on touch screen</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;InfraredLightOff() &nbsp;# Turn off the infrared LED</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if GetRecordingStat() == 1: # If camera is capturing</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SetEndRecordingTimer(60) &nbsp; &nbsp;# Onset a timer to finish video recording after 60 frames (correspond about 2sec) from now</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Add summary of results into the result file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectNum &gt; 0 or IncorrectNum &gt; 0:</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CorrectRate = int(CorrectNum * 100.0 / TrialNum)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('TotalNum:' + str(TrialNum) + ' &nbsp;CorrectNum:' + str(CorrectNum) + ' &nbsp;IncorrectNum:' + str(IncorrectNum) + ' &nbsp;CorrectRate:' + str(CorrectRate) + '%\n')</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('SessionStartTime: ' + str(GetTaskStartedMonth()) + '/' + str(GetTaskStartedDay()) + ' ' + str(GetTaskStartedHour()) + ':' + str(GetTaskStartedMinute()) + ':' + str(GetTaskStartedSecond()) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('SessionEndTime: ' + str(TimeNow.month) + '/' + str(TimeNow.day) + ' ' + str(TimeNow.hour) + ':' + str(TimeNow.minute) + ':' + str(TimeNow.second + (TimeNow.microsecond // 1000) / 1000) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('TaskDuration(sec): ' + str(TaskDur) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Add experimental conditions into the result file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('MaxCorrectNum: '+str(MaxCorrectNum)+&quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('MaxTrialNum: ' + str(MaxTrialNum) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('TimeLimit: ' + str(TimeLimit) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('PunishDur: ' + str(TimeLimit) + &quot;\n&quot;)</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('LickDur: ' + str(LickDur)+&quot;\n&quot;)</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="Blue">Writer_TouchEventTxt.write('NextTask: ' + str(NextTask)+&quot;\n&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('NextTaskTh: ' + str(NextTaskTh)+&quot;\n&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('PanelType: ' + PanelType+&quot;\n&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('WaterCueType: ' + WaterCueType+&quot;\n&quot;)</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('AwsOn: ' + AwsOn+&quot;\n&quot;)</font><br clear="all">
+  <br clear="all">
+  <font color="Black">新しい課題パラメータの値を結果ファイルへ出力</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write('RecordFPS: ' + str(GetRecordFps()) + &quot;\n&quot;) &nbsp;# Recorded frame number per second</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write(GetRoiSensitivity() + &quot;\n&quot;) &nbsp;# Settings of each ROI</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.write(GetServoAngle() + &quot;\n&quot;) &nbsp;# Set angles of each servo</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventTxt.close() &nbsp; &nbsp;# Close the text exporter for the result file</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Writer_TouchEventCsv.close()</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EndLickRecording() &nbsp;# End lick log recording</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SendMail(DeviceNameVar.get()+' finished task '+str(GetTaskID())+'. TrialNum:'+str(TrialNum)+' Correct:'+str(CorrectNum)+' Incorrect:'+str(IncorrectNum)+' Rate:'+str(CorrectRate)+'% Dur:'+str(round(Timer_GetSec(5) / 60,1))+' min','The task is finished.') # Send a email (correct number and task duration are added to email title)</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if IsHousingAnalysis == 1 and Phase2 == -1: &nbsp;# If it is housing analysis</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if CorrectRate &gt;= NextTaskTh: &nbsp;# If the score exceed the criteria to switch to the next task</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SwitchTask(NextTask) &nbsp;# Onset the task switching trigger</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(&quot;Task was switched to task#&quot; + str(NextTask) + &quot; &nbsp;&quot; + str(GetTaskStartedMonth()) + '/' + str(GetTaskStartedDay()) + ' ' + str(GetTaskStartedHour()) + ':' + str(GetTaskStartedMinute()) + ':' + str(GetTaskStartedSecond()))</font><br clear="all">
+  <br clear="all">
+  <font color="Black">最後に正答率(CorrectRate)が閾値(NextTaskTh)を超えた場合、NextTaskで指定した課題へ切り替える処理を追加します。</font><br clear="all">
+  <font color="Black">この機能は飼育解析モード(IsHousingAnalysis == 1)でかつ&quot;EndTask&quot;ボタンが押された場合でない時のみ実行されます。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if IsHousingAnalysis == 0:</font><br clear="all">
+  <font color="Blue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RoofLightOn()</font><br clear="all">
+  <br clear="all">
+  <font color="Black">飼育解析モードでなければセッションが終了した事をマウスに知らせるため天井照明をオンにします。</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase = 1 &nbsp;# Go back to the task-waiting phase</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2 = 0</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phase2_Init = 0</font><br clear="all">
+  <br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SetDispVariable(0, 'Phase2', str(Phase2)) &nbsp;# Display &quot;Phase2&quot; value on the bottom of main window</font><br clear="all">
+  <font color="MidnightBlue">&nbsp; &nbsp;return</font><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <font color="Black">以上の機能を加えれば十分実用的になると思います。</font></div>
+  </div>
+  <div id="footer">operanthouseのフッター</div>
+  <div id="HPZLPPageTail" style="clear: both;"></div></div>
+</body>
+
+</html>

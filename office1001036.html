@@ -1,0 +1,321 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<!--2026/02/10 17:56:23-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="GENERATOR" content="ホームページV4">
+  <title>Command list - Kitaya lab</title>
+  <link rel="stylesheet" href="02_white_a0_0010.css" type="text/css" media="all">
+</head>
+
+<body>
+  <div id="page">
+  <div id="header">operanthouseのヘッダー</div>
+  <div id="title">
+  <h1>Kitaya lab</h1></div>
+  <div id="menubar"><div class="mainmenu"><ul><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="index.html" class="mainmenuitemlink"><span class="mainmenuitemmark">オペラントハウスとは</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="office1001038.html" class="mainmenuitemlink"><span class="mainmenuitemmark">What's Operant House?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">行動解析君とは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1076.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Mr. Behavio?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1001.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Gait analyzer</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="privacy1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">プライバシーポリシー</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side1">
+  <div class="submenu"><ul><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="index.html" class="submenuitemlink"><span class="submenuitemmark1">オペラントハウスとは?</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001.html" class="submenuitemlink"><span class="submenuitemmark1">制作の準備(ﾀﾞｳﾝﾛｰﾄﾞ)</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank.html" class="submenuitemlink"><span class="submenuitemmark1">3Dプリンターの準備</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank001.html" class="submenuitemlink"><span class="submenuitemmark1">オペラントハウスの製作</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank002.html" class="submenuitemlink"><span class="submenuitemmark1">オプションパーツについて</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001018.html" class="submenuitemlink"><span class="submenuitemmark1">ｵﾍﾟﾗﾝﾄﾊｳｽの使い方</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank003.html" class="submenuitemlink"><span class="submenuitemmark1">オリジナル課題の追加</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001036.html" class="submenuitemlink"><span class="submenuitemmark1">Command list</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001069.html" class="submenuitemlink"><span class="submenuitemmark1">デフォルト課題の説明</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001010.html" class="submenuitemlink"><span class="submenuitemmark1">Tips</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001037.html" class="submenuitemlink"><span class="submenuitemmark1">トラブルシューティング</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001103.html" class="submenuitemlink"><span class="submenuitemmark1">About copyright</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001070.html" class="submenuitemlink"><span class="submenuitemmark1">Go to English page</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side2"></div>
+  <div class="HPZAutoMarginAdjuster" id="main_wrapper000">
+  <div id="main">
+  <h1>Obtaining information</h1>
+  <br clear="all">
+  <p class="line1">GetBackButtonStat()</p>
+  Returns 1 if &quot;Back&quot; button in the main window is clicked. Otherwise returns 0.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetEndTaskNowButtonStat()</p>
+  Returns 1 if &quot;EndTask&quot; button in the main window is clicked. Otherwise return 0.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetRecordFps()</p>
+  Returns number of frames per second (FPS) for the video recording.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetRecordingStat()</p>
+  Returns 1 if the video recording is activated. Otherwise return 0.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetRoiSensitivity()</p>
+  Returns a string containing values of sensitivities of nosepoke detecting ROIs.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetSaveTrgStat()</p>
+  Returns 1 if &quot;SavePara&quot; or &quot;Start&quot; buttons is clicked. Otherwise return 0.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetServoAngle()</p>
+  Returns a string containing values of set angles of servos.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskID()</p>
+  Returns ID of the current task.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskStartedYear()</p>
+  Returns the year the current task started.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskStartedMonth()</p>
+  Returns the month the current task started.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskStartedDay()</p>
+  Returns the day the current task started.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskStartedMinute()</p>
+  Returns the minute the current task started.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetTaskStartedSecond()</p>
+  Returns the second the current task started.<br clear="all">
+  <br clear="all">
+  <p class="line1">IsStartTime()</p>
+  Returns 1 if the current time is the set start time in the setting menu. Return 0 if it isn't.<br clear="all">
+  <br clear="all">
+  <p class="line1">GetArbitaryWaterSupplyStat()</p>
+  Returns 1 only once after finishing of AWS. Otherwise, it returns 0.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h1>GUI control</h1>
+  <h2>MainWindow</h2>
+  <p class="line1">PutStartBackButton()</p>
+  Places &quot;Start&quot;, &quot;AdjustPanel&quot; and &quot;Back&quot; buttons on the left of the main window.<br clear="all">
+  <br clear="all">
+  <p class="line1">PutPreTaskButton()</p>
+  Places &quot;StartNow&quot; and &quot;Back&quot; buttons in the left of the main window.<br clear="all">
+  <br clear="all">
+  <p class="line1">PutEndTaskNowButton()</p>
+  Places &quot;EndTask&quot; button in the left of the main window.<br clear="all">
+  <br clear="all">
+  <p class="line1">RemoveEndTaskNowButton()</p>
+  Removes &quot;EndTask&quot; button from the main window.<br clear="all">
+  <br clear="all">
+  <p class="line1">RemoveMainRightWidget()</p>
+  Removes the task buttons on the right of the main window.<br clear="all">
+  <br clear="all">
+  <p class="line1">SetDispVariable(Order : int, Item name : string, Value : string)</p>
+  Shows values of the given variables in the bottom of the main window. The following code is an example showing how it works,<br clear="all">
+  <br clear="all">
+  Code:<br clear="all">
+  SetDispVariable(0, 'Color', 'Red')<br clear="all">
+  SetDispVariable(2, 'Texture', 'Rough')<br clear="all">
+  SetDispVariable(1, 'Size', '1 meter')<br clear="all">
+  <br clear="all">
+  Result:<br clear="all">
+  &quot;Color:Red Size:1 meter Texture:Rough&quot;<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>DigitalOutWindow</h2>
+  <p class="line1">PutDigitalOutGui(Channel# : int)</p>
+  Puts a digital output GUI of the given channel on the DigitalOut window.<br clear="all">
+  <br clear="all">
+  <img src="paste3071.jpg" alt="" height="85" width="73" border="0"><br clear="all">
+  <p class="line1">RemoveAllDigitalOutGui()</p>
+  Removes all digital output GUIs on the DigitalOut window.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>RoiWindow</h2>
+  <p class="line1">PutRoiGui(ROI# : int, NosepokeDetectionMode : int, ThresholdDirection: int, DoesShowRoiSymbol : int)</p>
+  Puts a GUI of the given ROI in the ROI window. The details of the arguments are as below,<br clear="all">
+  <br clear="all">
+  ROI# : <br clear="all">
+  A corresponding ROI ID#.<br clear="all">
+  <br clear="all">
+  NosepokeDetectionMode : <br clear="all">
+  This argument determines which detection method will be used. If 0, the set values on the ROI GUI are used as background light intensities. <br clear="all">
+  If 1, the darkest or the brightest pixel colors in the latest 5 seconds are used as the backgrounds. <br clear="all">
+  <br clear="all">
+  ThresholdDirection : <br clear="all">
+  This argument instructs whether the bright color or the dark color should be detected. <br clear="all">
+  If 1, it detects bright color. If 0, it detects dark color. Normally 1 is used to detect panel touching because mouse's nose appears to be brightly colored. If black-furred mouse is used, the ROI placed on the water access slit should be 0 because its back of the head looks dark.<br clear="all">
+  <br clear="all">
+  DoesShowRoiSymbol : <br clear="all">
+  This argument indicates whether the red square is shown or not when it detects the subject. If 1, this function is activated.<br clear="all">
+  <br clear="all">
+  <p class="line1">RemoveAllRoiGui()</p>
+  Removes all GUIs on the ROI window.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>ServoWindow</h2>
+  <p class="line1">PutServoGui(Channel# : int)</p>
+  Adds a servo GUI of the given channel on the servo window.<br clear="all">
+  <br clear="all">
+  <img src="paste127.jpg" alt="" height="109" width="184" border="0"><br clear="all">
+  <br clear="all">
+  <p class="line1">RemoveAllServoGui()</p>
+  Removes all servo GUIs on the servo window.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h1>Device control</h1>
+  <h2>DigitalOutput</h2>
+  <br clear="all">
+  <p class="line1">RoofLightOn()</p>
+  Turns on the ceiling white illumination (Digital output channel 13 is activated).<br clear="all">
+  <br clear="all">
+  <p class="line1">RoofLightOff()</p>
+  Turns off the ceiling white illumination (Digital output channel 13 is deactivated).<br clear="all">
+  <br clear="all">
+  <p class="line1">InfraredLightOn()</p>
+  Turns on the infrared illumination for the water access port (Digital output channel 12 is activated).<br clear="all">
+  <br clear="all">
+  <p class="line1">InfraredLightOff()</p>
+  Turns off the infrared illumination for the water access port (Digital output channel 12 is deactivated).<br clear="all">
+  <br clear="all">
+  <p class="line1">DigitalOutOn(Channel# : int)</p>
+  Turns on the given digital output channel.<br clear="all">
+  <br clear="all">
+  <p class="line1">DigitalOutOff(Channel# : int)</p>
+  Turns off the given digital output channel.<br clear="all">
+  <br clear="all">
+  <p class="line1">DigitalOutBlinkOn(Channel# : int)</p>
+  Starts blinking of the given digital output channel. This mode can be terminated by DigitalOutOff(Channel# : int).<br clear="all">
+  <br clear="all">
+  <p class="line1">LightCycleControlOn()</p>
+  Turns on the automatic ceiling lights control mode. The light/dark cycle can be set at &quot;Setting&quot; menu. This is effective only during homecage analysis mode (&quot;IsHousingAnalysis = 1&quot; in the general setting).<br clear="all">
+  <br clear="all">
+  <p class="line1">LightCycleControlOff()</p>
+  Turns off the automatic ceiling lights control mode. The light/dark cycle can be set at &quot;Setting&quot; menu. This is effective only during homecage analysis mode (&quot;IsHousingAnalysis = 1&quot; in the general setting).<br clear="all">
+  <br clear="all">
+  <p class="line1">StartLickRecording()</p>
+  Start logging of the lick events to the water nozzle. The log will be exported as &quot;* Lick.txt&quot; and &quot;* Lick.csv&quot;<br clear="all">
+  <br clear="all">
+  <p class="line1">StartLickRecording()</p>
+  Finishes logging of the licking events.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Digital Input</h2>
+  <br clear="all">
+  <p class="line1">DigitalInOn(Channel# : int)</p>
+  Sets the given channel for digital input mode.<br clear="all">
+  <br clear="all">
+  <p class="line1">DetectLeverPress(Channel# : int)</p>
+  Returns 1 if the given channel is grounded (= the lever is pressed).<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Analog input</h2>
+  <br clear="all">
+  <p class="line1">DetectLeverPressAnalog(Threshold : int)</p>
+  Returns an analog channel# which below the given threshold.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Servo</h2>
+  <p class="line1">ServoPosInside(Channel# : int)</p>
+  Rotates the given servo to the angle set as &quot;In&quot; angle. <br clear="all">
+  <br clear="all">
+  <p class="line1">ServoPosMiddle(Channel# : int)</p>
+  Rotates the given servo to the angle set as &quot;Mid&quot; angle.<br clear="all">
+  <br clear="all">
+  <p class="line1">ServoPosOutside(Channel# : int)</p>
+  Rotates the given servo to the angle set as &quot;Out&quot; angle.<br clear="all">
+  <br clear="all">
+  <p class="line1">StartArbitaryWaterSupply(ServoCh : int, CueCh : int, IsBlink : int, millisec : int)</p>
+  Stars AWS. The details of arguments are as below,<br clear="all">
+  <br clear="all">
+  ServoCh :<br clear="all">
+  Digital output channel# which is connected to water arm servo<br clear="all">
+  <br clear="all">
+  CueCh :<br clear="all">
+  Digital output channel# which is connected to water cue LED<br clear="all">
+  <br clear="all">
+  IsBlink :<br clear="all">
+  If 1, water cue LED blinkgs. If 0, it turns on.<br clear="all">
+  <br clear="all">
+  millisec :<br clear="all">
+  The duration of AWS (in milliseconds). <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Panel</h2>
+  <p class="line1">CreateNormalPanel(Panel# : int)</p>
+  Creates a normal square-white panel (Panel# is corresponds to ROI #).<br clear="all">
+  <br clear="all">
+  <p class="line1">CreateNormalPanel_All()</p>
+  Creates the same number of normal square-white panels as it was set in the panel adjusting.<br clear="all">
+  <br clear="all">
+  <p class="line1">CreateBlinkPanel(Panel# : int)</p>
+  Creates a blinking square-white panel (Panel# is corresponds to ROI #).<br clear="all">
+  <br clear="all">
+  <p class="line1">CreateBlinkPanel_All()</p>
+  Creates the same number of blinking square-white panels as it was set in the panel adjusting.<br clear="all">
+  <br clear="all">
+  <p class="line1">CreateTexturedPanel(Panel# : int)</p>
+  Creates a panel which has the image which was uploaded in the &quot;Setting&quot; menu.<br clear="all">
+  <br clear="all">
+  <p class="line1">CreateTexturedPanel_All()</p>
+  Creates the same number of textured panels as it was set in the panel adjusting.<br clear="all">
+  <br clear="all">
+  <p class="line1">ShowPanel(Panel# : int)</p>
+  Turns on display of the given-created panel.<br clear="all">
+  <br clear="all">
+  <p class="line1">ShowAllPanel()</p>
+  Turns on displays of all the created panels.<br clear="all">
+  <br clear="all">
+  <p class="line1">HidePanel(Panel# : int)</p>
+  Turns off display of the given-created panel.<br clear="all">
+  <br clear="all">
+  <p class="line1">HideAllPanel()</p>
+  Turns off displays of all the created panels.<br clear="all">
+  <br clear="all">
+  <p class="line1">DeletePanel(Panel# : int)</p>
+  Deletes the given-created panel.<br clear="all">
+  <br clear="all">
+  <p class="line1">DeleteAllPanel()</p>
+  Deletes all created panels.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Camera</h2>
+  <p class="line1">StartRecording()</p>
+  Starts video recording.<br clear="all">
+  <br clear="all">
+  <p class="line1">EndRecording()</p>
+  Ends video recording.<br clear="all">
+  <br clear="all">
+  <p class="line1">SetEndRecordingTimer(FrameNum : int)</p>
+  Finishes video recording after the given frames.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <h2>Others</h2>
+  <p class="line1">DetectRoiNosepoke()</p>
+  Returns the ROI# which detects the subject.<br clear="all">
+  <br clear="all">
+  <p class="line1">Timer_Start(Timer# : int)</p>
+  Starts the given timer. Total 4 timers are available (#0-3). The timer time can be obtained by using &quot;Timer_GetSec()&quot; command.<br clear="all">
+  <br clear="all">
+  exp:<br clear="all">
+  Timer_Start(2) &nbsp; &nbsp;# Starts timer #2<br clear="all">
+  <p class="line1">Timer_End(Timer# : int)</p>
+  Stops the given timer. Total 4 timers are available (#0-3). The timer time can be obtained by using &quot;Timer_GetSec()&quot; command.<br clear="all">
+  <br clear="all">
+  exp:<br clear="all">
+  Timer_End(2) &nbsp; &nbsp;# Stops timer #2<br clear="all">
+  <p class="line1">Timer_Reset(Timer# : int)</p>
+  Stops and resets the count of the given timer.<br clear="all">
+  <br clear="all">
+  <p class="line1">Timer_GetSec(Timer# : int)</p>
+  Returns the elapsed time of the given timer (#0-3) in seconds.<br clear="all">
+  <br clear="all">
+  <p class="line1">SendMail(Subject : string, Body : string)</p>
+  Sends email to the address which was set in &quot;Setting2&quot; menu. The title and body are entered as arguments.<br clear="all">
+  <br clear="all">
+  <p class="line1">SwitchTask(Task# : int)</p>
+  Switches to the given task.<br clear="all">
+  </div>
+  </div>
+  <div id="footer">operanthouseのフッター</div>
+  <div id="HPZLPPageTail" style="clear: both;"></div></div>
+</body>
+
+</html>
