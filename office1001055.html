@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ja">
 
-<!--2026/02/12 10:33:24-->
+<!--2026/02/24 16:13:06-->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -210,13 +210,21 @@
   <img src="paste2745.jpg" alt="" border="0"><br clear="all">
   <br clear="all">
   <br clear="all">
-  Adjust the sensitivity of the ROI. The ROIs for panel touch detection (here, ROI #1 and #2) and the ROI for nose poke detection at the water access slit (ROI #19) may look similar, but their detection methods and sensitivity settings are different. Panel touch detection ROIs automatically adjusts their backgrounds if their position remains unchanged for 5 seconds.<br clear="all">
+  Adjust the sensitivity of the ROI. The ROIs for panel touch detection (here, ROI #1 and #2) and the ROI for nose poke detection at the water access slit (ROI #19) may look similar, but their detection methods and sensitivity settings are different. Panel touch detection ROIs automatically adjusts their backgrounds if their position remains unchanged for 5 seconds (*see the detail at the bottom of this page).<br clear="all">
   <br clear="all">
   The white dots of the ROI represent sampling points for pixel colors. If the mouse's body overlaps with these points, the software compares the changed in pixel color at the sampling point with the threshold set in A (&quot;Dark&quot; is the threshold without roof lighting, and &quot;Light&quot; is the threshold with roof lighting). If the changed exceeds the threshold, the point is considered as &quot;hit&quot;. When the number of hits number surpasses the threshold number set in B, the ROI detects the nosepoke.<br clear="all">
   <br clear="all">
-  ROI #19 does not have such automatic background adjustment, as it needs to continuously detect water access during the complimentary water supply. Thus detection thresholdof ROI #19 must be assigned as a absolute pixel color (0:dark - 255:bright) rather than change in color as in nosepoke detection ROIs. If the mouse's color is black, increasing the threshold value makes it more sensitive to detecting the mouse's head. Typically, the optimal threshold is 30 units lower than the value caused false background detection.<br clear="all">
+  In other words, a smaller value increases detection sensitivity, but at the same time also increases the risk of false detection. <br clear="all">
   <br clear="all">
-  If youwant activate specific ROI manually, click the &quot;Test&quot; button (D).<br clear="all">
+  Start by setting the <b>A</b> values to <b>80</b> and the <b>B</b> values to <b>6.</b> You can test for false detection caused by changes in illuminaiton or the appearance/disappearance of the panels using <b>ShowPanel</b> or <b>Ch13</b> buttons. If necessary, adjust the A value later.<br clear="all">
+  <br clear="all">
+  <b>Higher detection sensitivity is not always the best choice. In our preliminary test with the DNMTP task, lower sensitivity actually increased the learning speed.We don't know why but we assume that lower sensitivity increases the effort required to touch the panel which would enhances the mouse's motivation totouch the correct one. If you find that the learning speed is slow, increase the required number of detection points (B) to make the mouse use multiple bodyparts to touch the panel.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  ROI #19</b>does not have automatic background adjustment, as it needs to continuously detect water access during the supplemental water supply. Thus detection thresholdof <b>ROI #19</b> must be assigned as a absolute pixel color (0:dark - 255:bright) rather than change in color as in nosepoke detection ROIs (<b>#0-2</b> in this example). If the mouse's color is black, increasing the threshold value makes it more sensitive to detecting the mouse's head (this is opposite to panel touch detection ROIs). Typically, the optimal threshold is <b>30 units lower</b> than the value caused false background detection.<br clear="all">
+  <br clear="all">
+  If youwant activate specific ROI manually, click the &quot;Test&quot; button (<b>D</b>).<br clear="all">
   <img src="paste2753.jpg" alt="" border="0"><br clear="all">
   <br clear="all">
   <br clear="all">
@@ -249,7 +257,9 @@
   <img src="paste2747.jpg" alt="" border="0"><br clear="all">
   <br clear="all">
   <br clear="all">
-  </div>
+  <br clear="all">
+  <br clear="all">
+  *About the algorism for the panel touch detection: The Operant House software records the pixel brightness value at each sampling point oever the most recent 5 sec and recognizes the lowest value within that period as the background brightness intensity. This process is performed independently for each sampling point, therefore if bedding material enters the ROI, only the sampling points locating over the bedding will increase their background level while the other sampling points remain unaffected and still capable of detecting mouse nosepoke. </div>
   </div>
   <div id="footer">operanthouseのフッター</div>
   <div id="HPZLPPageTail" style="clear: both;"></div></div>
