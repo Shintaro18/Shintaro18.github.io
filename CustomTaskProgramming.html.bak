@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>google-code-prettify</title>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </head>
+  <body>
+    <h1>Google code prettify</h1>
+    <p>google-code-prettify‚Ì•\Ž¦—á</p>
+    <pre class="prettyprint linenums"><code>
+code
+aaa
+bbb
+cccc
+ddd
+eee
+    </code></pre>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<!--2026/08/07 13:02:07-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="GENERATOR" content="ホームページV4">
+  <title>Addition Custom Task with Generative AI - Kitaya lab</title>
+  <link rel="stylesheet" href="02_white_a0_0010.css" type="text/css" media="all">
+</head>
+
+<body>
+  <div id="page">
+  <div id="header">operanthouseのヘッダー</div>
+  <div id="title">
+  <h1>Kitaya lab</h1></div>
+  <div id="menubar"><div class="mainmenu"><ul><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="index.html" class="mainmenuitemlink"><span class="mainmenuitemmark">What's Operant House</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="office1001002.html" class="mainmenuitemlink"><span class="mainmenuitemmark">オペラントハウスとは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">行動解析君とは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1076.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Mr. Behavio?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1001.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Gait analyzer</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="privacy1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">プライバシーポリシー</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="99_blank007.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Link page</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side1">
+  <div class="submenu"><ul><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="index.html" class="submenuitemlink"><span class="submenuitemmark1">What's Operant House?</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001.html" class="submenuitemlink"><span class="submenuitemmark1">Preparation(Download)</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank.html" class="submenuitemlink"><span class="submenuitemmark1">Preparation of 3D printer</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank004.html" class="submenuitemlink"><span class="submenuitemmark1">Production of the OperantHouse</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank005.html" class="submenuitemlink"><span class="submenuitemmark1">About Option Parts</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001055.html" class="submenuitemlink"><span class="submenuitemmark1">Handling of OperantHouse</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001111.html" class="submenuitemlink"><span class="submenuitemmark1">Addition Custom Task with Generative AI</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank006.html" class="submenuitemlink"><span class="submenuitemmark1">Custom task</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001072.html" class="submenuitemlink"><span class="submenuitemmark1">Command list</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001073.html" class="submenuitemlink"><span class="submenuitemmark1">Default tasks</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001063.html" class="submenuitemlink"><span class="submenuitemmark1">Tips</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001064.html" class="submenuitemlink"><span class="submenuitemmark1">Troubleshooting</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001102.html" class="submenuitemlink"><span class="submenuitemmark1">Copyright</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001071.html" class="submenuitemlink"><span class="submenuitemmark1">日本語ページへ</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side2"></div>
+  <div id="main_wrapper000" class="HPZAutoMarginAdjuster">
+  <div id="main">
+  <h1>Addition Custom Task with Generative AI</h1>
+  <hr>
+  <br clear="all">
+  It was found that LLM AI such as ChatGPT can add user custom task very quickly (In my test single prompt was enough). Here is the procedure that I tested:<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  LLM model used in this test: ChatGPT5.5<br clear="all">
+  <br clear="all">
+  1. Drag and drop the Operant House software file (OperantHouse*.py) into ChatGPT.<br clear="all">
+  <br clear="all">
+  2. Enter a prompt like this:<br clear="all">
+ &nbsp; &nbsp; &nbsp; &nbsp;“This Python code is the software for the Operant House. Please add a [name of task] task to it.”<br clear="all">
+  <br clear="all">
+  3. Put the code generated by ChatGPT into the Operant House folder and run it.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  In my test it worked perfectly and the whole process took only a few minutes...</div>
+  </div>
+  <div id="footer">operanthouseのフッター</div>
+  <div id="HPZLPPageTail" style="clear: both;"></div></div>
+</body>
+
+</html>

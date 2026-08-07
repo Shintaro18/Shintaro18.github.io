@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<!--2026/08/07 13:02:06-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="GENERATOR" content="ホームページV4">
+  <title>Preparation of 3D printer - Kitaya lab</title>
+  <link rel="stylesheet" href="02_white_a0_0010.css" type="text/css" media="all">
+</head>
+
+<body>
+  <div id="page">
+  <div id="header">operanthouseのヘッダー</div>
+  <div id="title">
+  <h1>Kitaya lab</h1></div>
+  <div id="menubar"><div class="mainmenu"><ul><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="index.html" class="mainmenuitemlink"><span class="mainmenuitemmark">What's Operant House</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="office1001002.html" class="mainmenuitemlink"><span class="mainmenuitemmark">オペラントハウスとは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">行動解析君とは?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1076.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Mr. Behavio?</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="profile1001.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Gait analyzer</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="privacy1.html" class="mainmenuitemlink"><span class="mainmenuitemmark">プライバシーポリシー</span></a></span></span></span></li><li class="mainmenulistitem"><span class="mainmenuitem"><span class="mainmenuitemright"><span class="mainmenuitemcenter"><a href="99_blank007.html" class="mainmenuitemlink"><span class="mainmenuitemmark">Link page</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side1">
+  <div class="submenu"><ul><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="index.html" class="submenuitemlink"><span class="submenuitemmark1">What's Operant House?</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001.html" class="submenuitemlink"><span class="submenuitemmark1">Preparation(Download)</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank.html" class="submenuitemlink"><span class="submenuitemmark1">Preparation of 3D printer</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank004.html" class="submenuitemlink"><span class="submenuitemmark1">Production of the OperantHouse</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank005.html" class="submenuitemlink"><span class="submenuitemmark1">About Option Parts</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001055.html" class="submenuitemlink"><span class="submenuitemmark1">Handling of OperantHouse</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001111.html" class="submenuitemlink"><span class="submenuitemmark1">Addition Custom Task with Generative AI</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="99_blank006.html" class="submenuitemlink"><span class="submenuitemmark1">Custom task</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001072.html" class="submenuitemlink"><span class="submenuitemmark1">Command list</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001073.html" class="submenuitemlink"><span class="submenuitemmark1">Default tasks</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001063.html" class="submenuitemlink"><span class="submenuitemmark1">Tips</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001064.html" class="submenuitemlink"><span class="submenuitemmark1">Troubleshooting</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001102.html" class="submenuitemlink"><span class="submenuitemmark1">Copyright</span></a></span></span></span></li><li><span class="submenuitem"><span class="submenuitemright"><span class="submenuitemcenter"><a href="office1001071.html" class="submenuitemlink"><span class="submenuitemmark1">日本語ページへ</span></a></span></span></span></li></ul>
+</div></div>
+  <div id="side2"></div>
+  <div class="HPZAutoMarginAdjuster" id="main_wrapper000">
+  <div id="main">
+  <h1>Preparation of 3D printer</h1>
+  <hr>
+  <br clear="all">
+  Any FDM type 3D printer with a printable area of at least 240(W) x 240(D) x 200(H) mm should works. As of 2026, the following printers are recommended:<br clear="all">
+  <br clear="all">
+  - Bambu Lab P2S<br clear="all">
+  - Bambu Lab A1<br clear="all">
+  <br clear="all">
+  There are many videos for the setup and tutorial of these printers on Youtube.<br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  【Extending of nozzle lifespan】<br clear="all">
+  <br clear="all">
+  Removing of dust from the filament using a filament cleaner like this (Kimwipe wrapped around the filament and secured with tape) can extend the nozzle's lifespan several times.<br clear="all">
+  <img src="paste403.jpg" alt="" border="0"><br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  <br clear="all">
+  【Preventing print object from peeling off during printing】<br clear="all">
+  <br clear="all">
+  Glue stick for the 3D printer like this can prevent from detaching during printing.<br clear="all">
+  <img src="paste404.jpg" alt="" height="460" width="273" border="0"></div>
+  </div>
+  <div id="footer">operanthouseのフッター</div>
+  <div id="HPZLPPageTail" style="clear: both;"></div></div>
+</body>
+
+</html>
