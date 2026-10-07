@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ja">
 
-<!--2026/08/07 13:02:08-->
+<!--2026/10/07 12:20:05-->
 
 <head>
 <!-- Google tag (gtag.js) -->
@@ -319,7 +319,9 @@
   <br clear="all">
   In this task, two panels (correct and incorrect) are displayed and touching the correct one is rewarded. The correct side is besically fixed but when the subject choses the correct panel for a certain times in the latest trials, the correct and incorrect sides are switched. For the pattern separation study, the distance between correct and incorrect panels are changed day by day automatically to measure in both large and small separation condition if the &quot;AutoDisAltMode&quot; is ON.<br clear="all">
   <br clear="all">
-  <img src="paste317.jpg" alt="" border="0"><br clear="all">
+  Trials after the last reversal are used for the calculation of the Admitted Correct/Incorrect/Total trials and Admitted Correct% (Admitted trials are not actual delay selected trials).<br clear="all">
+  You need to use IR sensor bar to use the following mask having 5 holes (This is the same as the one used in the Operant House paper). If your Operant House doesn't have have the IR sensorbar, use 4 hole mask instead.<br clear="all">
+  <img src="paste410.jpg" alt="" height="161" width="517" border="0"><br clear="all">
   <br clear="all">
   <img src="paste318.jpg" alt="" border="0"><br clear="all">
   <br clear="all">
@@ -336,6 +338,7 @@
   <b>EvalCorrectNum</b>: &nbsp;The number of the latest trials used to determine whether to switch the correct position. (8)<br clear="all">
   <b>NecCorrectNum</b>: &nbsp;The number of correct responses required to switch the correct position. (7)<br clear="all">
   <b>CorrectPos</b>: &nbsp;The correct position at the first trial. If 0 or 4, the task will be large separation task. If 1 or 3, it will be small separation condition. (0 or 1 or 2 or 3)<br clear="all">
+  <b>HiddenPanel</b>: If activated, touching the hidden panles is counted as wrong touch. If inactivated, hidden panel touch is ignored.<br clear="all">
   <b>PanelType</b>: &nbsp;Three panel types are available. If you chose &quot;textured&quot;, the textures set in the setting will be displayed as a panel. (Normal)<br clear="all">
   <b>WaterCueType</b>: &nbsp;The type of LED reward cue. (Blink)<br clear="all">
   <b>PunishLight</b>: &nbsp;If ON, ceiling illuminations are turned on during punishment. (ON)<br clear="all">
